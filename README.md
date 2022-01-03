@@ -1,1 +1,1 @@
-# Amazon-Framework
+# AmazonFramework
