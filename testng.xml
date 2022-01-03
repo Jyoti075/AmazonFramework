@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Amazon_Framework" verbose="1" >
+    <listeners>
+        <listener class-name="com.amazon.utils.Listeners"></listener>
+    </listeners>
+    <test name="All_Tests" >
+        <classes>
+            <class name="com.amazon.testcases.LoginTest"/>
+            <class name="com.amazon.testcases.AddWishListTest"/>
+            <class name="com.amazon.testcases.searchProductTest"/>
+            <class name="com.amazon.testcases.LogOutTest"/>
+        </classes>
+    </test>
+</suite>
